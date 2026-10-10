@@ -13,12 +13,12 @@ const DOGS = [
     id: "chooey",
     name: "Chooey",
     emoji: "🐶",
-    blurb: "The sunny goofball",
-    subtitle: "Golden retriever · Professional tail-wagger",
+    blurb: "The Boss Dog",
+    subtitle: "Aspin · Professional sleeper",
     color: "#ffd9c0", // card border (peach)
-    cover: "https://placedog.net/600/600?id=11",
+    cover: "images/chooey-1.jpg",
     photos: [
-      { src: "https://placedog.net/800/600?id=11", caption: "Chooey's very first beach day" },
+      { src: "https://placedog.net//600?id=11", caption: "Chooey's very first beach day" },
       { src: "https://placedog.net/800/600?id=12", caption: "Caught mid-zoomies in the garden" },
       { src: "https://placedog.net/800/600?id=13", caption: "Nap time on the good couch" },
       { src: "https://placedog.net/800/600?id=14", caption: "Waiting (im)patiently for dinner" },
@@ -28,10 +28,10 @@ const DOGS = [
     id: "chopper",
     name: "Chopper",
     emoji: "🐕",
-    blurb: "The cuddly sweetheart",
+    blurb: "The Guard",
     subtitle: "Shih tzu mix · Chief of snuggles",
     color: "#cfe3cf", // sage
-    cover: "https://placedog.net/600/600?id=21",
+    cover: "images/chopper-1.jpg",
     photos: [
       { src: "https://placedog.net/800/600?id=21", caption: "Fresh from the groomer" },
       { src: "https://placedog.net/800/600?id=22", caption: "Guarding the pillow fort" },
@@ -42,10 +42,10 @@ const DOGS = [
     id: "chimmy",
     name: "Chimmy",
     emoji: "🐩",
-    blurb: "The speedy explorer",
+    blurb: "The Jolly One",
     subtitle: "Border collie · Ball enthusiast",
     color: "#f7c6d0", // soft pink, the only girl
-    cover: "https://placedog.net/600/600?id=31",
+    cover: "images/chimmy-1.jpg",
     photos: [
       { src: "https://placedog.net/800/600?id=31", caption: "Hiking with the family" },
       { src: "https://placedog.net/800/600?id=32", caption: "Ball? Did someone say ball?" },
@@ -58,10 +58,10 @@ const DOGS = [
     id: "cheeko",
     name: "Cheeko",
     emoji: "🦮",
-    blurb: "The gentle old soul",
+    blurb: "The Hyperactive",
     subtitle: "Labrador · Treat negotiator",
     color: "#fff0b8", // butter
-    cover: "https://placedog.net/600/600?id=41",
+    cover: "images/cheeko-1.jpg",
     photos: [
       { src: "https://placedog.net/800/600?id=41", caption: "Cheeko wearing his birthday bandana" },
       { src: "https://placedog.net/800/600?id=42", caption: "Looking very innocent" },
