@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A family photo gallery of our four dogs." />
+  <meta name="theme-color" content="#fff8ee" />
+  <title>Our Dogs · Family Photo Gallery</title>
+
+  <!-- Google Fonts: Fredoka (headings) + Nunito (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">
+      <span class="paw" aria-hidden="true">🐾</span>
+      Our Four Dogs
+      <span class="paw" aria-hidden="true">🐾</span>
+    </h1>
+    <p class="site-tagline">Four wagging tails, one very happy family.</p>
+  </header>
+
+  <main>
+    <!-- Home: one card per dog -->
+    <section id="home-view" class="view" aria-labelledby="home-heading">
+      <h2 id="home-heading" class="section-heading">Pick a pup to meet</h2>
+      <ul id="album-grid" class="album-grid"></ul>
+    </section>
+
+    <!-- Album: gallery for the chosen dog -->
+    <section id="album-view" class="view" aria-labelledby="album-title" hidden>
+      <div class="album-top">
+        <button id="back-btn" class="back-btn" type="button">
+          <span aria-hidden="true">←</span> Back to all dogs
+        </button>
+        <div>
+          <h2 id="album-title" class="album-title"></h2>
+          <p id="album-sub" class="album-sub"></p>
+        </div>
+      </div>
+      <ul id="photo-grid" class="photo-grid"></ul>
+    </section>
+
+    <noscript>
+      <p class="empty-note">Please turn on JavaScript to see our dog photos. 🐶</p>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with <span aria-hidden="true">🦴</span> and lots of treats · <span id="year"></span></p>
+  </footer>
+
+  <!-- Lightbox: tap a photo to see it larger -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button id="lightbox-close" class="lightbox-btn lightbox-close" type="button" aria-label="Close photo">✕</button>
+    <button id="lightbox-prev" class="lightbox-btn lightbox-prev" type="button" aria-label="Previous photo">‹</button>
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+    <button id="lightbox-next" class="lightbox-btn lightbox-next" type="button" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
